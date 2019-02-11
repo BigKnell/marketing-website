@@ -1,4 +1,4 @@
-# Marketing Website
+﻿# Marketing Website
 
 You are to demonstrate that you know how to use basic HTML and CSS by building a responsive single page marketing webpage for one of these three companies:
 
@@ -14,13 +14,13 @@ You will use one of these companies as a guide for your content.  For design, y
 
 These project requirements directly impact the grading rubric, so read them carefully:
 
-- [ ] Pick one of the three companies in the project description as your client
+- [x] Pick one of the three companies in the project description as your client
 
-- [ ] Pick which website you admire to mimic for layout, you will provide the URL at the bottom of the readme file
+- [x] Pick which website you admire to mimic for layout, you will provide the URL at the bottom of the readme file
 
-- [ ] You must have images and headings matching your clients content theme.  Everything else can be filler text (lorem ipsum)
+- [x] You must have images and headings matching your clients content theme.  Everything else can be filler text (lorem ipsum)
 
-- [ ] Build a 1 page marketing web page based on your decided client and layout.  Your final website must closely match the website layout that you admired
+- [x] Build a 1 page marketing web page based on your decided client and layout.  Your final website must closely match the website layout that you admired
 
 - [ ] Your website must have 1 breakpoint for mobile devices at 500px, stack your content vertically so you don't have horizontal scroll bars on mobile devices
 
@@ -49,3 +49,4 @@ We will be using git throughout the semester.  Each project much be forked and 
 - [ ] When you have completed the website, submit your repository URL
 
 The URL you used for layout is: 
+https://www.dndbeyond.com/characters/builder#/

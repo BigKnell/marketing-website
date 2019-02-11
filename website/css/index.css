@@ -47,4 +47,109 @@ table {
 	border-spacing: 0;
 }
 
-/* Start your code here: */
+/* My code */
+
+body {
+	background-color: lavender;
+	font-family: arial;
+	margin: 15px;
+}
+
+header {
+	padding: 12px;
+	background-image: url("../images/calmHeader.jpg");
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-around;
+}
+
+.forFlex {
+	margin-top: 20px;
+}
+
+@media (min-width:500px) {
+	ul, .flex1, .flex2, .flex3 {
+		display: flex;
+		justify-content: space-around;
+	}
+	article ul {
+		display: flex;
+		flex-direction: column;;
+	}
+	section {
+	height: 400px;
+	width: 600px;
+	font-size: 20pt;
+	}
+}
+
+/*This is so the text doesn't fall out of the photo.*/
+@media (max-width: 800px) {
+	section {
+		font-size: 15pt;
+	}
+}
+
+@media (max-width: 500px) {
+	.allFlex {
+		display: flex;
+		flex-direction: column;
+	}
+	section {
+		background-color: purple;
+
+	}
+	img {
+		display:none;
+	}
+}
+
+h1 {
+	margin: 10pt;
+	font-size: 40pt;
+	color:lavender;
+	font-family: "Trebuchet MS", helvetica, sans-serif;
+}
+
+nav {
+	padding: 5px;
+	background-color:plum;
+}
+
+h2 {
+	font-size: 30pt;
+	margin-top: 30pt;
+	margin-bottom: 10pt;
+}
+
+section {
+	color: white;
+	margin: 20px;
+	position: relative;
+	text-align: center;
+}
+
+#book {
+	background-image: url("../images/office.jpg");
+}
+
+#popular {
+	background-image: url("../images/popular.jpg");
+}
+
+#derma {
+	background-image: url("../images/derma.jpg");
+}
+
+#aroma {
+	background-image: url("../images/aroma.jpg");
+}
+
+h3 {
+	font-weight: bold;
+}
+
+.flex3 {
+	background-color: plum;
+	padding: 20px;
+}
